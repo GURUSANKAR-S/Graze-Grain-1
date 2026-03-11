@@ -1,112 +1,226 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { apiFetch, resolveImageUrl } from '@/lib/api';
-import { ApiSuccess, MenuItem } from '@/types/api';
+"use client";
 
-const inr = new Intl.NumberFormat('en-IN', {
-  style: 'currency',
-  currency: 'INR',
-  maximumFractionDigits: 2,
-});
+import { FormEvent, useEffect, useState } from "react";
+import { apiFetch } from "@/lib/api";
+import { ApiSuccess, Category } from "@/types/api";
 
-async function getFeaturedItems() {
-  const response = await apiFetch<ApiSuccess<MenuItem[]>>('/menu-items/featured', {
-    cache: 'no-store',
-  });
-  return response.data.slice(0, 6);
-}
-
-const Home = async () => {
-  const featuredItems = await getFeaturedItems();
-  const heroImage = resolveImageUrl(featuredItems[0]?.image_url);
-
-  return (
-    <div>
-      <section
-        className="relative min-h-[72vh] overflow-hidden bg-cover bg-center"
-        style={{ backgroundImage: `url('${heroImage}')` }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/45 to-black/65" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(255,208,160,0.2),transparent_40%)]" />
-        <div className="animate-drift absolute -left-16 top-12 h-56 w-56 rounded-full bg-amber-200/25 blur-3xl" />
-        <div className="animate-drift absolute right-0 top-0 h-72 w-72 rounded-full bg-orange-300/20 blur-3xl [animation-delay:1.2s]" />
-        <div className="animate-float-y absolute bottom-10 right-10 h-28 w-28 rounded-full border border-amber-100/40 bg-white/10 backdrop-blur-sm" />
-        <div className="relative mx-auto flex min-h-[72vh] w-full max-w-6xl items-end px-4 pb-20 pt-16 md:px-6">
-          <div className="max-w-2xl rounded-3xl border border-[#c6926e]/35 bg-[rgba(255,246,235,0.9)] p-7 text-[#2e170d] shadow-[0_28px_55px_-28px_rgba(0,0,0,0.75)] backdrop-blur-sm md:p-10">
-            <p className="reveal-up mb-3 text-sm font-semibold uppercase tracking-[0.24em] text-[#8f4d24]">
-              Modern Casual Dining
-            </p>
-            <h1 className="reveal-up delay-1 text-5xl font-semibold leading-tight text-[#2a150d] md:text-6xl">
-              Graze & Grain
-            </h1>
-            <p className="reveal-up delay-2 mt-4 text-lg leading-relaxed text-[#4f3427]">
-              Charcoal-fired signatures, seasonal plates, and warm hospitality in the heart of Coimbatore.
-            </p>
-            <Link
-              href="/menu"
-              className="animate-pulse-soft mt-7 inline-flex rounded-full bg-[#8f4d24] px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition hover:bg-[#6f3515]"
-            >
-              Explore Menu
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <section className="mx-auto w-full max-w-6xl px-4 py-16 md:px-6">
-        <div className="mb-8 flex items-end justify-between">
-          <h2 className="text-4xl font-semibold">Featured Dishes</h2>
-          <Link href="/menu" className="text-sm font-semibold uppercase tracking-wide text-[var(--brand)]">
-            View full menu
-          </Link>
-        </div>
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {featuredItems.map((item) => (
-            <div
-              key={item.id}
-              className="group overflow-hidden rounded-2xl border border-amber-900/10 bg-[var(--surface)] shadow-[0_20px_45px_-35px_rgba(71,30,7,0.7)] transition hover:-translate-y-1"
-            >
-              <Image
-                src={resolveImageUrl(item.image_url)}
-                alt={item.name}
-                width={400}
-                height={300}
-                unoptimized
-                className="h-52 w-full object-cover transition duration-500 group-hover:scale-105"
-              />
-              <div className="p-5">
-                <h3 className="text-2xl font-semibold">{item.name}</h3>
-                <p className="mt-2 text-lg font-bold text-[var(--brand-strong)]">{inr.format(item.price)}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="mx-auto w-full max-w-6xl px-4 pb-16 md:px-6">
-        <div className="rounded-3xl border border-amber-900/15 bg-[var(--surface-strong)] p-8 md:p-10">
-          <h2 className="text-4xl font-semibold">Our Story</h2>
-          <p className="mt-4 max-w-3xl text-[var(--muted)]">
-            Graze & Grain was born from a passion for produce-led cooking, open-fire aromas, and thoughtful service.
-            Every plate balances comfort with craft using local ingredients, clean flavors, and seasonal rhythm.
-          </p>
-        </div>
-      </section>
-
-      <section className="mx-auto w-full max-w-6xl px-4 pb-4 md:px-6">
-        <div className="flex flex-col items-center justify-between gap-4 rounded-3xl bg-gradient-to-r from-[var(--brand-strong)] via-[var(--brand)] to-[#b56a36] px-8 py-8 text-white md:flex-row">
-          <p className="text-lg md:text-xl">Reserve your table for tonight&apos;s chef specials.</p>
-          <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/menu" className="rounded-full bg-white px-6 py-3 text-sm font-bold uppercase tracking-wide text-[var(--brand-strong)] transition hover:bg-amber-100">
-              Explore Menu
-            </Link>
-            <Link href="/reservations" className="rounded-full border border-white/40 px-6 py-3 text-sm font-bold uppercase tracking-wide transition hover:bg-white/10">
-              Book Table
-            </Link>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
+type CategoryForm = {
+  name: string;
+  displayOrder: number;
 };
 
-export default Home;
+export default function CategoriesPage() {
+  const [categories, setCategories] = useState<Category[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+  const [editingId, setEditingId] = useState<number | null>(null);
+  const [form, setForm] = useState<CategoryForm>({ name: "", displayOrder: 1 });
+  const [token, setToken] = useState("");
+
+  async function fetchCategories(authToken: string) {
+    const response = await apiFetch<ApiSuccess<Category[]>>(
+      "/categories/admin",
+      {
+        headers: { Authorization: `Bearer ${authToken}` },
+        cache: "no-store",
+      }
+    );
+    setCategories(response.data);
+  }
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem("accessToken") || "";
+    setToken(storedToken);
+
+    fetchCategories(storedToken)
+      .catch((err) => setError(err instanceof Error ? err.message : "Failed"))
+      .finally(() => setLoading(false));
+  }, []);
+
+  async function submitCategory(event: FormEvent) {
+    event.preventDefault();
+    setError("");
+
+    try {
+      const path = editingId ? `/categories/${editingId}` : "/categories";
+      const method = editingId ? "PATCH" : "POST";
+
+      await apiFetch<ApiSuccess<Category>>(path, {
+        method,
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({
+          name: form.name,
+          display_order: form.displayOrder,
+        }),
+      });
+
+      setEditingId(null);
+      setForm({ name: "", displayOrder: 1 });
+
+      await fetchCategories(token);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to save category");
+    }
+  }
+
+  async function toggleCategory(category: Category) {
+    await apiFetch<ApiSuccess<Category>>(`/categories/${category.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify({
+        is_active: !category.is_active,
+      }),
+    });
+
+    await fetchCategories(token);
+  }
+
+  async function deactivateCategory(categoryId: number) {
+    await apiFetch<ApiSuccess<Category>>(`/categories/${categoryId}`, {
+      method: "DELETE",
+      headers: { Authorization: `Bearer ${token}` },
+    });
+
+    await fetchCategories(token);
+  }
+
+  function startEdit(category: Category) {
+    setEditingId(category.id);
+    setForm({
+      name: category.name,
+      displayOrder: category.display_order,
+    });
+  }
+
+  return (
+    <div className="space-y-6">
+      <h1 className="text-4xl font-semibold">Category Management</h1>
+
+      <form onSubmit={submitCategory} className="glass-surface rounded-3xl p-5">
+        <h2 className="mb-4 text-2xl font-semibold">
+          {editingId ? "Edit Category" : "Create Category"}
+        </h2>
+
+        <div className="grid gap-3 md:grid-cols-3">
+          <input
+            value={form.name}
+            onChange={(e) =>
+              setForm((prev) => ({ ...prev, name: e.target.value }))
+            }
+            placeholder="Category name"
+            className="rounded-xl border border-amber-900/15 bg-white/90 px-3 py-2.5 outline-none transition focus:border-[var(--brand)]"
+            required
+          />
+
+          <input
+            type="number"
+            min={1}
+            value={form.displayOrder}
+            onChange={(e) =>
+              setForm((prev) => ({
+                ...prev,
+                displayOrder: Number(e.target.value),
+              }))
+            }
+            className="rounded-xl border border-amber-900/15 bg-white/90 px-3 py-2.5 outline-none transition focus:border-[var(--brand)]"
+            required
+          />
+
+          <div className="flex gap-2">
+            <button className="flex-1 rounded-xl bg-[var(--brand)] px-4 py-2.5 font-semibold text-white transition hover:bg-[var(--brand-strong)]">
+              {editingId ? "Update" : "Add Category"}
+            </button>
+
+            {editingId && (
+              <button
+                type="button"
+                onClick={() => {
+                  setEditingId(null);
+                  setForm({ name: "", displayOrder: 1 });
+                }}
+                className="rounded-xl border border-amber-900/20 px-4 py-2.5 font-semibold transition hover:bg-amber-100/70"
+              >
+                Cancel
+              </button>
+            )}
+          </div>
+        </div>
+
+        {error && <p className="mt-3 text-sm text-red-700">{error}</p>}
+      </form>
+
+      {loading ? (
+        <p className="text-[var(--muted)]">Loading categories...</p>
+      ) : categories.length === 0 ? (
+        <p className="rounded-2xl border border-amber-900/15 bg-white/85 p-6 text-[var(--muted)]">
+          No categories yet.
+        </p>
+      ) : (
+        <div className="overflow-x-auto rounded-2xl border border-amber-900/15 bg-white/85">
+          <table className="min-w-full">
+            <thead className="bg-amber-100/60 text-left text-sm">
+              <tr>
+                <th className="px-4 py-3">Name</th>
+                <th className="px-4 py-3">Display Order</th>
+                <th className="px-4 py-3">Status</th>
+                <th className="px-4 py-3">Actions</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              {categories.map((category) => (
+                <tr key={category.id} className="border-t border-amber-900/10">
+                  <td className="px-4 py-3 font-semibold">{category.name}</td>
+                  <td className="px-4 py-3">{category.display_order}</td>
+
+                  <td className="px-4 py-3">
+                    <span
+                      className={`rounded-full px-2 py-1 text-xs font-semibold ${
+                        category.is_active
+                          ? "bg-emerald-100 text-emerald-800"
+                          : "bg-stone-200 text-stone-700"
+                      }`}
+                    >
+                      {category.is_active ? "Active" : "Inactive"}
+                    </span>
+                  </td>
+
+                  <td className="px-4 py-3">
+                    <div className="flex flex-wrap gap-2">
+                      <button
+                        onClick={() => startEdit(category)}
+                        className="rounded-lg border border-amber-900/20 px-3 py-1.5 text-sm font-semibold transition hover:bg-amber-100/70"
+                      >
+                        Edit
+                      </button>
+
+                      <button
+                        onClick={() => toggleCategory(category)}
+                        className="rounded-lg border border-amber-900/20 px-3 py-1.5 text-sm font-semibold transition hover:bg-amber-100/70"
+                      >
+                        Toggle Active
+                      </button>
+
+                      <button
+                        onClick={() => deactivateCategory(category.id)}
+                        className="rounded-lg border border-red-300 px-3 py-1.5 text-sm font-semibold text-red-700 transition hover:bg-red-50"
+                      >
+                        Deactivate
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
+  );
+}
