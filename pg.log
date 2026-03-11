@@ -1,0 +1,64 @@
+2026-03-11 14:32:46.961 IST [40544] LOG:  starting PostgreSQL 18.3 on x86_64-windows, compiled by msvc-19.44.35222, 64-bit
+2026-03-11 14:32:46.967 IST [40544] LOG:  listening on IPv6 address "::1", port 5432
+2026-03-11 14:32:46.967 IST [40544] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-03-11 14:32:47.087 IST [40952] LOG:  database system was interrupted; last known up at 2026-03-05 21:43:41 IST
+2026-03-11 14:32:50.298 IST [40952] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-03-11 14:32:50.305 IST [40952] LOG:  redo starts at 0/1D9CD70
+2026-03-11 14:32:50.305 IST [40952] LOG:  invalid record length at 0/1D9CE78: expected at least 24, got 0
+2026-03-11 14:32:50.305 IST [40952] LOG:  redo done at 0/1D9CE40 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-03-11 14:32:50.315 IST [34500] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-03-11 14:32:50.331 IST [34500] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.003 s, total=0.018 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1D9CE78, redo lsn=0/1D9CE78
+2026-03-11 14:32:50.347 IST [40544] LOG:  database system is ready to accept connections
+2026-03-11 14:33:56.523 IST [28236] ERROR:  syntax error at or near "BEGIN" at character 5
+2026-03-11 14:33:56.523 IST [28236] STATEMENT:  DO  BEGIN IF NOT EXISTS (SELECT 1 FROM pg_roles WHERE rolname='grazeandgrain') THEN CREATE ROLE grazeandgrain LOGIN PASSWORD 'mysecretpassword'; END IF; END ;
+2026-03-11 14:38:16.528 IST [34952] ERROR:  extension "adminpack" is not available
+2026-03-11 14:38:16.528 IST [34952] HINT:  The extension must first be installed on the system where PostgreSQL is running.
+2026-03-11 14:38:16.528 IST [34952] STATEMENT:  CREATE EXTENSION adminpack
+2026-03-11 14:41:38.515 IST [29512] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 14:41:38.648 IST [32140] ERROR:  permission denied to create database
+2026-03-11 14:41:38.648 IST [32140] STATEMENT:  CREATE DATABASE "prisma_migrate_shadow_db_22464478-b679-492a-889f-87c6a948f899"
+2026-03-11 14:41:38.805 IST [32140] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 14:41:58.372 IST [5252] LOG:  could not receive data from client: An established connection was aborted by the software in your host machine.
+	
+2026-03-11 14:41:59.924 IST [34500] LOG:  checkpoint starting: immediate force wait
+2026-03-11 14:41:59.957 IST [34500] LOG:  checkpoint complete: wrote 39 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=0.007 s, sync=0.013 s, total=0.034 s; sync files=16, longest=0.002 s, average=0.001 s; distance=5102 kB, estimate=5102 kB; lsn=0/2298838, redo lsn=0/22987E0
+2026-03-11 14:42:00.505 IST [34500] LOG:  checkpoint starting: immediate force wait
+2026-03-11 14:42:00.521 IST [34500] LOG:  checkpoint complete: wrote 6 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.005 s, total=0.017 s; sync files=7, longest=0.002 s, average=0.001 s; distance=4881 kB, estimate=5080 kB; lsn=0/275CF08, redo lsn=0/275CEB0
+2026-03-11 14:42:00.586 IST [24964] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 14:42:09.989 IST [42084] LOG:  could not receive data from client: An established connection was aborted by the software in your host machine.
+	
+2026-03-11 14:42:10.071 IST [39168] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 14:45:53.047 IST [31136] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 14:47:00.535 IST [34500] LOG:  checkpoint starting: time
+2026-03-11 14:47:01.543 IST [34500] LOG:  checkpoint complete: wrote 9 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.986 s, sync=0.011 s, total=1.008 s; sync files=10, longest=0.003 s, average=0.001 s; distance=13 kB, estimate=4573 kB; lsn=0/27603D0, redo lsn=0/2760378
+2026-03-11 14:49:18.899 IST [13692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 14:49:59.113 IST [8432] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 14:57:00.552 IST [34500] LOG:  checkpoint starting: time
+2026-03-11 14:57:00.678 IST [34500] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.110 s, sync=0.002 s, total=0.128 s; sync files=1, longest=0.002 s, average=0.002 s; distance=3 kB, estimate=4116 kB; lsn=0/2761290, redo lsn=0/2761238
+2026-03-11 15:14:10.511 IST [34776] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 15:15:05.162 IST [35596] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 15:28:16.703 IST [35044] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 15:28:16.703 IST [34044] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 15:28:16.703 IST [9368] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 15:28:16.703 IST [28100] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 15:28:16.703 IST [27384] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 15:28:16.703 IST [10380] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 15:28:18.965 IST [29340] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-03-11 15:32:00.753 IST [34500] LOG:  checkpoint starting: time
+2026-03-11 15:32:01.673 IST [34500] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.881 s, sync=0.008 s, total=0.925 s; sync files=9, longest=0.002 s, average=0.001 s; distance=8 kB, estimate=3705 kB; lsn=0/2763330, redo lsn=0/27632D8

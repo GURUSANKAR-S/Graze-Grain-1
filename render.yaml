@@ -1,0 +1,36 @@
+services:
+  - type: web
+    name: graze-grain-api
+    runtime: node
+    rootDir: backend
+    plan: free
+    buildCommand: npm ci && npx prisma generate && npm run build
+    startCommand: npm run start:prod
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: PORT
+        value: 10000
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: MAX_FILE_SIZE_MB
+        value: 5
+      - key: UPLOAD_DEST
+        value: /opt/render/project/uploads
+      - key: DATABASE_URL
+        fromDatabase:
+          name: graze-grain-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGIN
+        sync: false
+    disks:
+      - name: uploads
+        mountPath: /opt/render/project/uploads
+        sizeGB: 1
+
+databases:
+  - name: graze-grain-db
+    plan: free

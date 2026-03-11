@@ -1,0 +1,83 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model AdminUser {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  passwordHash  String   @map("password_hash")
+  role      AdminRole     @default(admin)
+  isActive  Boolean  @default(true) @map("is_active")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("admin_users")
+}
+
+model MenuCategory {
+  id           Int        @id @default(autoincrement())
+  name         String     @unique
+  slug         String     @unique
+  displayOrder Int        @map("display_order") @db.SmallInt
+  isActive     Boolean    @default(true) @map("is_active")
+  createdAt    DateTime   @default(now()) @map("created_at")
+  updatedAt    DateTime   @updatedAt @map("updated_at")
+  menuItems    MenuItem[]
+
+  @@map("menu_categories")
+}
+
+model MenuItem {
+  id          Int          @id @default(autoincrement())
+  name        String
+  slug        String       @unique
+  description String?
+  price       Decimal      @db.Decimal(8, 2)
+  imageUrl    String       @map("image_url")
+  isAvailable Boolean      @default(true) @map("is_available")
+  isFeatured  Boolean      @default(false) @map("is_featured")
+  isDeleted   Boolean      @default(false) @map("is_deleted")
+  createdAt   DateTime     @default(now()) @map("created_at")
+  updatedAt   DateTime     @updatedAt @map("updated_at")
+  categoryId  Int          @map("category_id")
+  category    MenuCategory @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+
+  @@index([name])
+  @@index([categoryId, isDeleted, isAvailable])
+  @@map("menu_items")
+}
+
+model Reservation {
+  id              Int               @id @default(autoincrement())
+  customerName    String            @map("customer_name")
+  phone           String
+  email           String?
+  reservationDate DateTime          @map("reservation_date")
+  guestCount      Int               @map("guest_count")
+  specialRequest  String?           @map("special_request")
+  status          ReservationStatus @default(pending)
+  acknowledgedAt  DateTime?         @map("acknowledged_at")
+  createdAt       DateTime          @default(now()) @map("created_at")
+  updatedAt       DateTime          @updatedAt @map("updated_at")
+
+  @@index([status, reservationDate])
+  @@map("reservations")
+}
+
+enum AdminRole {
+  admin
+  super_admin
+}
+
+enum ReservationStatus {
+  pending
+  acknowledged
+}

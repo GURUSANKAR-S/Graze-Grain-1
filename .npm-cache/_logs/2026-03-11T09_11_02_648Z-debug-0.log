@@ -1,0 +1,941 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\.npmrc
+5 silly config load:file:C:\Users\Gurusankar\.npmrc
+6 silly config load:file:C:\Users\Gurusankar\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\.npm-cache\_logs\2026-03-11T09_11_02_648Z-
+10 verbose logfile C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\.npm-cache\_logs\2026-03-11T09_11_02_648Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\es-abstract'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-android-arm64'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-darwin-arm64'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-darwin-x64'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-freebsd-x64'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-arm64-gnu'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-x64-gnu'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-arm-gnueabihf'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-arm64-musl'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-x64-musl'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-win32-arm64-msvc'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\next'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-darwin-x64'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-darwin-arm64'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-darwin-x64'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-arm64'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-arm'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-s390x'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-x64'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-arm'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-arm64'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-ppc64'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-riscv64'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-x64'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-s390x'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linuxmusl-x64'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-wasm32'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linuxmusl-arm64'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-win32-arm64'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-win32-ia32'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-darwin-arm64'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-linux-arm64-gnu'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-darwin-x64'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-linux-arm64-musl'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-linux-x64-musl'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-linux-x64-gnu'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-win32-arm64-msvc'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-android-arm64'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-android-arm-eabi'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-android-arm64'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-darwin-x64'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-darwin-arm64'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-freebsd-x64'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-arm-gnueabihf'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-arm-musleabihf'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-arm64-gnu'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-ppc64-gnu'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-arm64-musl'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-riscv64-gnu'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-riscv64-musl'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-s390x-gnu'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-x64-gnu'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-wasm32-wasi'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-x64-musl'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-win32-ia32-msvc'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-win32-arm64-msvc'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\acorn',
+85 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\acorn',
+85 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\acorn.cmd',
+85 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\acorn.ps1'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\baseline-browser-mapping',
+86 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\baseline-browser-mapping',
+86 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+86 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\browserslist',
+87 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\browserslist',
+87 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\browserslist.cmd',
+87 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\browserslist.ps1'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint',
+88 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\eslint',
+88 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\eslint.cmd',
+88 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\eslint.ps1'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint-plugin-react\\node_modules\\resolve',
+89 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\resolve',
+89 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\resolve.cmd',
+89 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\resolve.ps1'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\is-bun-module\\node_modules\\semver',
+90 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\semver',
+90 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\semver.cmd',
+90 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\semver.ps1'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\jiti',
+91 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\jiti',
+91 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\jiti.cmd',
+91 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\jiti.ps1'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\js-yaml',
+92 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\js-yaml',
+92 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\js-yaml.cmd',
+92 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\js-yaml.ps1'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\jsesc',
+93 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\jsesc',
+93 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\jsesc.cmd',
+93 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\jsesc.ps1'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\json5',
+94 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\json5',
+94 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\json5.cmd',
+94 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\json5.ps1'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\loose-envify',
+95 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\loose-envify',
+95 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\loose-envify.cmd',
+95 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\loose-envify.ps1'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\napi-postinstall',
+96 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\napi-postinstall',
+96 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\napi-postinstall.cmd',
+96 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\napi-postinstall.ps1'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\nanoid',
+97 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\nanoid',
+97 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\nanoid.cmd',
+97 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\nanoid.ps1'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\resolve',
+98 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\resolve',
+98 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\resolve.cmd',
+98 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\resolve.ps1'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\semver',
+99 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\semver',
+99 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\semver.cmd',
+99 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\semver.ps1'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\sharp\\node_modules\\semver',
+100 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\sharp\\node_modules\\.bin\\semver',
+100 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\sharp\\node_modules\\.bin\\semver.cmd',
+100 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\sharp\\node_modules\\.bin\\semver.ps1'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\tsconfig-paths\\node_modules\\json5',
+101 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5',
+101 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.cmd',
+101 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.ps1'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\update-browserslist-db',
+102 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\update-browserslist-db',
+102 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\update-browserslist-db.cmd',
+102 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\update-browserslist-db.ps1'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\typescript',
+103 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\tsc',
+103 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\tsc.cmd',
+103 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\tsc.ps1',
+103 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\tsserver',
+103 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\tsserver.cmd',
+103 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\tsserver.ps1'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\which',
+104 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\node-which',
+104 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\node-which.cmd',
+104 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\node-which.ps1'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@babel\\parser',
+105 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\parser',
+105 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\parser.cmd',
+105 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\parser.ps1'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\semver',
+106 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver',
+106 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver.cmd',
+106 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver.ps1'
+106 silly reify ]
+107 silly reify moves {
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\es-abstract': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.es-abstract-T8NOAbhu',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-android-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.lightningcss-android-arm64-IcLUK0xs',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-darwin-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.lightningcss-darwin-arm64-DhtHr3kp',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-darwin-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.lightningcss-darwin-x64-gCPAiba9',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-freebsd-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.lightningcss-freebsd-x64-y6FhYzVL',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-arm64-gnu': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.lightningcss-linux-arm64-gnu-RQ8vVYmn',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-x64-gnu': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.lightningcss-linux-x64-gnu-QAl9gqJV',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-arm-gnueabihf': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.lightningcss-linux-arm-gnueabihf-qv2tBWfk',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-arm64-musl': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.lightningcss-linux-arm64-musl-Z2vlh6dm',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-x64-musl': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.lightningcss-linux-x64-musl-NV5Q4CdQ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-win32-arm64-msvc': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.lightningcss-win32-arm64-msvc-YwCKKWkb',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\next': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.next-I3v6k8YY',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-darwin-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-darwin-x64-mC4C91LF',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-darwin-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-darwin-arm64-BZkswmqq',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-darwin-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-libvips-darwin-arm64-Lmn3Xcwz',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-darwin-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-libvips-darwin-x64-ih35fk1W',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-libvips-linux-arm64-6AkrQ0Lv',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-arm': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-libvips-linux-arm-iAHxjrnP',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-ppc64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-libvips-linux-ppc64-qVq3xRPj',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-riscv64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-libvips-linux-riscv64-iUfwL6AW',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-s390x': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-libvips-linux-s390x-Ud11ExD2',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-libvips-linux-x64-f77W1Ydi',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-libvips-linuxmusl-arm64-Ho96kTAu',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linuxmusl-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-libvips-linuxmusl-x64-Vxu3YjnH',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-arm': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-linux-arm-lDfoCKK3',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-linux-arm64-3yCqBGOw',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-ppc64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-linux-ppc64-QqmRlukQ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-riscv64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-linux-riscv64-0iDmj7rH',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-linux-x64-e6W9hP8H',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-s390x': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-linux-s390x-FYxTxaWZ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linuxmusl-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-linuxmusl-x64-PT8iGINF',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-wasm32': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-wasm32-jpd1Eq80',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linuxmusl-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-linuxmusl-arm64-nLo6Lzcn',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-win32-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-win32-arm64-ufiYS1nn',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-win32-ia32': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\.sharp-win32-ia32-qPDGfOvJ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-darwin-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\.swc-darwin-arm64-E4aPWSso',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-linux-arm64-gnu': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\.swc-linux-arm64-gnu-FWM1AvY1',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-darwin-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\.swc-darwin-x64-Qga6x3tG',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-linux-arm64-musl': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\.swc-linux-arm64-musl-cnyuQGvs',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-linux-x64-musl': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\.swc-linux-x64-musl-qlIha6AR',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-linux-x64-gnu': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\.swc-linux-x64-gnu-6vmhMfRv',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-win32-arm64-msvc': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\.swc-win32-arm64-msvc-L5aV8wer',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-android-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\.oxide-android-arm64-Bm6QDfWF',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-darwin-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\.oxide-darwin-x64-dBzGvTUT',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-darwin-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\.oxide-darwin-arm64-RUvMFRdm',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-freebsd-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\.oxide-freebsd-x64-XSAy5dJr',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\.oxide-linux-arm64-gnu-YBmdAonX',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\.oxide-linux-arm64-musl-Gbe3yDcw',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\.oxide-linux-x64-gnu-OyXkoSrC',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-x64-musl': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\.oxide-linux-x64-musl-AiV638zx',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-wasm32-wasi': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\.oxide-wasm32-wasi-nGlmGwKT',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\.oxide-win32-arm64-msvc-J9xPlTZd',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\.oxide-linux-arm-gnueabihf-KEP2KDXA',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-android-arm-eabi': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-android-arm-eabi-d4VKSkfi',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-android-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-android-arm64-tWpGI0tq',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-darwin-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-darwin-x64-t7OBt25M',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-darwin-arm64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-darwin-arm64-MCF7FMiB',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-freebsd-x64': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-freebsd-x64-HlxWAV7B',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-arm-gnueabihf': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-linux-arm-gnueabihf-hYWxDW3e',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-arm-musleabihf': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-linux-arm-musleabihf-GXQfuvsU',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-arm64-gnu': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-linux-arm64-gnu-mG3m15KM',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-ppc64-gnu': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-linux-ppc64-gnu-H2GsYuAf',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-arm64-musl': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-linux-arm64-musl-XAcdoFyj',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-riscv64-gnu': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-linux-riscv64-gnu-NmDKXH10',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-riscv64-musl': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-linux-riscv64-musl-Fo0yKBgx',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-s390x-gnu': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-linux-s390x-gnu-duGWbO0F',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-x64-gnu': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-linux-x64-gnu-Wd5EbtEg',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-wasm32-wasi': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-wasm32-wasi-Nt7kMXyf',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-x64-musl': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-linux-x64-musl-NOIB9DkU',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-win32-ia32-msvc': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-win32-ia32-msvc-2B23ToKs',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-win32-arm64-msvc': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\.resolver-binding-win32-arm64-msvc-kffdZ2Ky',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\acorn': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.acorn-A68zBRn6',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\acorn': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.acorn-8TEQ1Axs',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\acorn.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.acorn.cmd-5lQWIbiq',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\acorn.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.acorn.ps1-ylgzODwp',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\baseline-browser-mapping': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.baseline-browser-mapping-8whu8cSm',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.baseline-browser-mapping-stiW3l5V',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.baseline-browser-mapping.cmd-3ExYlbgQ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.baseline-browser-mapping.ps1-UWRrMOL9',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\browserslist': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.browserslist-POmmnDfS',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\browserslist': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.browserslist-CjVP4aIE',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\browserslist.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.browserslist.cmd-7uWHMEfa',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\browserslist.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.browserslist.ps1-s1PVb4ax',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.eslint-WCF5ebDo',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\eslint': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.eslint-RlL5JMd3',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\eslint.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.eslint.cmd-a9MxCffq',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\eslint.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.eslint.ps1-oGuslT3w',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint-plugin-react\\node_modules\\resolve': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint-plugin-react\\node_modules\\.resolve-RVecaGYO',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\resolve': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\.resolve-l0HXgbhH',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\.resolve.cmd-BNm1lyw8',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\eslint-plugin-react\\node_modules\\.bin\\.resolve.ps1-cNBSk80I',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\is-bun-module\\node_modules\\semver': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\is-bun-module\\node_modules\\.semver-GLG8baSP',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\semver': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\.semver-Pgz6rFT5',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\.semver.cmd-S8OX9bKJ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\is-bun-module\\node_modules\\.bin\\.semver.ps1-r2GeTT60',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\jiti': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.jiti-c25rS75W',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\jiti': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.jiti-9JTjaCIQ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\jiti.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.jiti.cmd-ALz92wPJ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\jiti.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.jiti.ps1-Hv2udu3s',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\js-yaml': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.js-yaml-nG5vK60M',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\js-yaml': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.js-yaml-1gHxhq16',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\js-yaml.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.js-yaml.cmd-YnleTTE7',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\js-yaml.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.js-yaml.ps1-yVU3pvB6',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\jsesc': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.jsesc-oZQp8SCN',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\jsesc': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.jsesc-qrM3anNt',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\jsesc.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.jsesc.cmd-0mZyvsVu',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\jsesc.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.jsesc.ps1-wBmDQXXC',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\json5': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.json5-gn0lVrxu',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\json5': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.json5-sn64ZgWc',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\json5.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.json5.cmd-vYyNLGq4',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\json5.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.json5.ps1-yPFshdbR',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\loose-envify': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.loose-envify-ILWEuuDm',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\loose-envify': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.loose-envify-S41DSwwO',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\loose-envify.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.loose-envify.cmd-dW5aEgtA',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\loose-envify.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.loose-envify.ps1-AS3H9DBt',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\napi-postinstall': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.napi-postinstall-cj1wG7i9',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\napi-postinstall': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.napi-postinstall-R7LDkkhX',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\napi-postinstall.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.napi-postinstall.cmd-P8NL8g3w',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\napi-postinstall.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.napi-postinstall.ps1-nBfQJh0a',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\nanoid': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.nanoid-bQhwfxJM',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\nanoid': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.nanoid-DN47LI7E',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.nanoid.cmd-KfeJPZki',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.nanoid.ps1-dRq0LNM6',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\resolve': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.resolve-JGDLrW0e',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\resolve': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.resolve-ntQEZaJZ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.resolve.cmd-a6Zk4NLy',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.resolve.ps1-ZFCfbUtL',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\semver': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.semver-VB7uGg6r',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\semver': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.semver-7UKxpcn8',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.semver.cmd-BWprMLuu',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.semver.ps1-r251csGJ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\sharp\\node_modules\\semver': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\sharp\\node_modules\\.semver-Y1EYZQWb',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\sharp\\node_modules\\.bin\\semver': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\sharp\\node_modules\\.bin\\.semver-YYaaPv08',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\sharp\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\sharp\\node_modules\\.bin\\.semver.cmd-ZFYo7qDv',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\sharp\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\sharp\\node_modules\\.bin\\.semver.ps1-svFhtedQ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\tsconfig-paths\\node_modules\\json5': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.json5-xqzqICw8',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5-2fw09Pm9',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5.cmd-I1Y0XVqr',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5.ps1-JEsWYpus',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\update-browserslist-db': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.update-browserslist-db-pIe21nLM',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\update-browserslist-db': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.update-browserslist-db-U7i8OfLE',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.update-browserslist-db.cmd-UfYwR0hz',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.update-browserslist-db.ps1-iahleouG',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\typescript': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.typescript-7rC9U56y',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\tsc': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.tsc-Jd4Kt0zJ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.tsc.cmd-5UOCVqeG',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.tsc.ps1-2AWN3wYf',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\tsserver': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.tsserver-WoD4N0R3',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.tsserver.cmd-pFtRNiOn',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.tsserver.ps1-YJ7dqqO2',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\which': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.which-jLvmLlDJ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\node-which': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.node-which-hPOukveL',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\node-which.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.node-which.cmd-iQfoignl',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\node-which.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.node-which.ps1-AUNZl5aK',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@babel\\parser': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@babel\\.parser-y6NCwtmp',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\parser': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.parser-fOiEwiHZ',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\parser.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.parser.cmd-FR9Hw64l',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\parser.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\.bin\\.parser.ps1-95CEHqWb',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\semver': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.semver-5Jru9vKY',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\.semver-a3GdpoKi',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\.semver.cmd-0Sgo0d3u',
+107 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@typescript-eslint\\typescript-estree\\node_modules\\.bin\\.semver.ps1-vz05jvQ3'
+107 silly reify }
+108 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@tailwindcss\oxide-wasm32-wasi
+109 silly reify mark deleted [
+109 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+109 silly reify ]
+110 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-win32-arm64-msvc
+111 silly reify mark deleted [
+111 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-win32-arm64-msvc'
+111 silly reify ]
+112 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-win32-ia32-msvc
+113 silly reify mark deleted [
+113 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-win32-ia32-msvc'
+113 silly reify ]
+114 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-linux-x64-musl
+115 silly reify mark deleted [
+115 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-x64-musl'
+115 silly reify ]
+116 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-wasm32-wasi
+117 silly reify mark deleted [
+117 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-wasm32-wasi'
+117 silly reify ]
+118 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-linux-x64-gnu
+119 silly reify mark deleted [
+119 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-x64-gnu'
+119 silly reify ]
+120 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-linux-s390x-gnu
+121 silly reify mark deleted [
+121 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-s390x-gnu'
+121 silly reify ]
+122 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-linux-riscv64-musl
+123 silly reify mark deleted [
+123 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-riscv64-musl'
+123 silly reify ]
+124 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-linux-riscv64-gnu
+125 silly reify mark deleted [
+125 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-riscv64-gnu'
+125 silly reify ]
+126 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-linux-arm64-musl
+127 silly reify mark deleted [
+127 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-arm64-musl'
+127 silly reify ]
+128 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-linux-ppc64-gnu
+129 silly reify mark deleted [
+129 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-ppc64-gnu'
+129 silly reify ]
+130 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-linux-arm64-gnu
+131 silly reify mark deleted [
+131 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-arm64-gnu'
+131 silly reify ]
+132 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-linux-arm-musleabihf
+133 silly reify mark deleted [
+133 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-arm-musleabihf'
+133 silly reify ]
+134 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-linux-arm-gnueabihf
+135 silly reify mark deleted [
+135 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-linux-arm-gnueabihf'
+135 silly reify ]
+136 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-freebsd-x64
+137 silly reify mark deleted [
+137 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-freebsd-x64'
+137 silly reify ]
+138 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-darwin-arm64
+139 silly reify mark deleted [
+139 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-darwin-arm64'
+139 silly reify ]
+140 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-darwin-x64
+141 silly reify mark deleted [
+141 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-darwin-x64'
+141 silly reify ]
+142 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-android-arm64
+143 silly reify mark deleted [
+143 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-android-arm64'
+143 silly reify ]
+144 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@unrs\resolver-binding-android-arm-eabi
+145 silly reify mark deleted [
+145 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@unrs\\resolver-binding-android-arm-eabi'
+145 silly reify ]
+146 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+147 silly reify mark deleted [
+147 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+147 silly reify ]
+148 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+149 silly reify mark deleted [
+149 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+149 silly reify ]
+150 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@tailwindcss\oxide-linux-x64-musl
+151 silly reify mark deleted [
+151 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+151 silly reify ]
+152 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@tailwindcss\oxide-linux-x64-gnu
+153 silly reify mark deleted [
+153 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+153 silly reify ]
+154 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@tailwindcss\oxide-linux-arm64-musl
+155 silly reify mark deleted [
+155 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+155 silly reify ]
+156 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+157 silly reify mark deleted [
+157 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+157 silly reify ]
+158 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@tailwindcss\oxide-freebsd-x64
+159 silly reify mark deleted [
+159 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+159 silly reify ]
+160 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@tailwindcss\oxide-darwin-arm64
+161 silly reify mark deleted [
+161 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+161 silly reify ]
+162 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@tailwindcss\oxide-darwin-x64
+163 silly reify mark deleted [
+163 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+163 silly reify ]
+164 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@tailwindcss\oxide-android-arm64
+165 silly reify mark deleted [
+165 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@tailwindcss\\oxide-android-arm64'
+165 silly reify ]
+166 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@next\swc-win32-arm64-msvc
+167 silly reify mark deleted [
+167 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-win32-arm64-msvc'
+167 silly reify ]
+168 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@next\swc-linux-x64-gnu
+169 silly reify mark deleted [
+169 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-linux-x64-gnu'
+169 silly reify ]
+170 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@next\swc-linux-x64-musl
+171 silly reify mark deleted [
+171 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-linux-x64-musl'
+171 silly reify ]
+172 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@next\swc-linux-arm64-musl
+173 silly reify mark deleted [
+173 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-linux-arm64-musl'
+173 silly reify ]
+174 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@next\swc-darwin-x64
+175 silly reify mark deleted [
+175 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-darwin-x64'
+175 silly reify ]
+176 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@next\swc-linux-arm64-gnu
+177 silly reify mark deleted [
+177 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-linux-arm64-gnu'
+177 silly reify ]
+178 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@next\swc-darwin-arm64
+179 silly reify mark deleted [
+179 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@next\\swc-darwin-arm64'
+179 silly reify ]
+180 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-win32-ia32
+181 silly reify mark deleted [
+181 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-win32-ia32'
+181 silly reify ]
+182 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-win32-arm64
+183 silly reify mark deleted [
+183 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-win32-arm64'
+183 silly reify ]
+184 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-linuxmusl-arm64
+185 silly reify mark deleted [
+185 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linuxmusl-arm64'
+185 silly reify ]
+186 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-wasm32
+187 silly reify mark deleted [
+187 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-wasm32'
+187 silly reify ]
+188 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-linuxmusl-x64
+189 silly reify mark deleted [
+189 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linuxmusl-x64'
+189 silly reify ]
+190 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-linux-s390x
+191 silly reify mark deleted [
+191 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-s390x'
+191 silly reify ]
+192 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-linux-x64
+193 silly reify mark deleted [
+193 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-x64'
+193 silly reify ]
+194 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-linux-riscv64
+195 silly reify mark deleted [
+195 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-riscv64'
+195 silly reify ]
+196 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-linux-ppc64
+197 silly reify mark deleted [
+197 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-ppc64'
+197 silly reify ]
+198 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-linux-arm64
+199 silly reify mark deleted [
+199 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-arm64'
+199 silly reify ]
+200 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-linux-arm
+201 silly reify mark deleted [
+201 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-linux-arm'
+201 silly reify ]
+202 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-libvips-linuxmusl-x64
+203 silly reify mark deleted [
+203 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+203 silly reify ]
+204 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-libvips-linuxmusl-arm64
+205 silly reify mark deleted [
+205 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+205 silly reify ]
+206 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-libvips-linux-x64
+207 silly reify mark deleted [
+207 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-x64'
+207 silly reify ]
+208 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-libvips-linux-s390x
+209 silly reify mark deleted [
+209 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-s390x'
+209 silly reify ]
+210 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-libvips-linux-riscv64
+211 silly reify mark deleted [
+211 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+211 silly reify ]
+212 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-libvips-linux-ppc64
+213 silly reify mark deleted [
+213 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+213 silly reify ]
+214 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-libvips-linux-arm
+215 silly reify mark deleted [
+215 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-arm'
+215 silly reify ]
+216 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-libvips-linux-arm64
+217 silly reify mark deleted [
+217 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-linux-arm64'
+217 silly reify ]
+218 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-libvips-darwin-x64
+219 silly reify mark deleted [
+219 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-darwin-x64'
+219 silly reify ]
+220 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-libvips-darwin-arm64
+221 silly reify mark deleted [
+221 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+221 silly reify ]
+222 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-darwin-arm64
+223 silly reify mark deleted [
+223 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-darwin-arm64'
+223 silly reify ]
+224 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\@img\sharp-darwin-x64
+225 silly reify mark deleted [
+225 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\@img\\sharp-darwin-x64'
+225 silly reify ]
+226 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\lightningcss-win32-arm64-msvc
+227 silly reify mark deleted [
+227 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-win32-arm64-msvc'
+227 silly reify ]
+228 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\lightningcss-linux-x64-musl
+229 silly reify mark deleted [
+229 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-x64-musl'
+229 silly reify ]
+230 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\lightningcss-linux-arm64-musl
+231 silly reify mark deleted [
+231 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-arm64-musl'
+231 silly reify ]
+232 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\lightningcss-linux-arm-gnueabihf
+233 silly reify mark deleted [
+233 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-arm-gnueabihf'
+233 silly reify ]
+234 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\lightningcss-linux-x64-gnu
+235 silly reify mark deleted [
+235 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-x64-gnu'
+235 silly reify ]
+236 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\lightningcss-linux-arm64-gnu
+237 silly reify mark deleted [
+237 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-linux-arm64-gnu'
+237 silly reify ]
+238 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\lightningcss-freebsd-x64
+239 silly reify mark deleted [
+239 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-freebsd-x64'
+239 silly reify ]
+240 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\lightningcss-darwin-x64
+241 silly reify mark deleted [
+241 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-darwin-x64'
+241 silly reify ]
+242 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\lightningcss-darwin-arm64
+243 silly reify mark deleted [
+243 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-darwin-arm64'
+243 silly reify ]
+244 verbose reify failed optional dependency C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend\node_modules\lightningcss-android-arm64
+245 silly reify mark deleted [
+245 silly reify   'C:\\Users\\Gurusankar\\OneDrive\\Desktop\\Graze-Grain-main\\frontend\\node_modules\\lightningcss-android-arm64'
+245 silly reify ]
+246 http cache @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.0.tgz 0ms (cache hit)
+247 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+248 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+249 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+250 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz 0ms (cache hit)
+251 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 0ms (cache hit)
+252 http cache update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 0ms (cache hit)
+253 http cache loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 0ms (cache hit)
+254 http cache napi-postinstall@https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz 0ms (cache hit)
+255 http cache json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 0ms (cache hit)
+256 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz 0ms (cache hit)
+257 http cache jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 0ms (cache hit)
+258 http cache eslint@https://registry.npmjs.org/eslint/-/eslint-9.39.3.tgz 0ms (cache hit)
+259 http cache js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz 0ms (cache hit)
+260 http cache next@https://registry.npmjs.org/next/-/next-16.1.6.tgz 0ms (cache hit)
+261 http cache baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.0.tgz 0ms (cache hit)
+262 http cache browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz 0ms (cache hit)
+263 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+264 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz 0ms (cache hit)
+265 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+266 http cache json5@https://registry.npmjs.org/json5/-/json5-1.0.2.tgz 0ms (cache hit)
+267 http cache es-abstract@https://registry.npmjs.org/es-abstract/-/es-abstract-1.24.1.tgz 0ms (cache hit)
+268 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.6.tgz 0ms (cache hit)
+269 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+270 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz. Extracting by manifest.
+271 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz. Extracting by manifest.
+272 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+273 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz. Extracting by manifest.
+274 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-16.1.6.tgz. Extracting by manifest.
+275 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-1.0.2.tgz. Extracting by manifest.
+276 silly tarball no local data for es-abstract@https://registry.npmjs.org/es-abstract/-/es-abstract-1.24.1.tgz. Extracting by manifest.
+277 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.6.tgz. Extracting by manifest.
+278 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 417ms (cache miss)
+279 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 453ms (cache miss)
+280 http fetch GET 200 https://registry.npmjs.org/json5/-/json5-1.0.2.tgz 511ms (cache miss)
+281 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz 621ms (cache miss)
+282 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.6.tgz 704ms (cache miss)
+283 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz 845ms (cache miss)
+284 http fetch GET 200 https://registry.npmjs.org/es-abstract/-/es-abstract-1.24.1.tgz 3063ms (cache miss)
+285 http fetch GET 200 https://registry.npmjs.org/next/-/next-16.1.6.tgz 17952ms (cache miss)
+286 silly CHANGE node_modules/@typescript-eslint/typescript-estree/node_modules/semver
+287 silly CHANGE node_modules/@babel/parser
+288 silly CHANGE node_modules/which
+289 silly CHANGE node_modules/typescript
+290 silly CHANGE node_modules/update-browserslist-db
+291 silly CHANGE node_modules/tsconfig-paths/node_modules/json5
+292 silly CHANGE node_modules/sharp/node_modules/semver
+293 silly CHANGE node_modules/semver
+294 silly CHANGE node_modules/resolve
+295 silly CHANGE node_modules/nanoid
+296 silly CHANGE node_modules/napi-postinstall
+297 silly CHANGE node_modules/loose-envify
+298 silly CHANGE node_modules/json5
+299 silly CHANGE node_modules/jsesc
+300 silly CHANGE node_modules/js-yaml
+301 silly CHANGE node_modules/jiti
+302 silly CHANGE node_modules/is-bun-module/node_modules/semver
+303 silly CHANGE node_modules/eslint-plugin-react/node_modules/resolve
+304 silly CHANGE node_modules/eslint
+305 silly CHANGE node_modules/browserslist
+306 silly CHANGE node_modules/baseline-browser-mapping
+307 silly CHANGE node_modules/acorn
+308 silly CHANGE node_modules/@unrs/resolver-binding-win32-arm64-msvc
+309 silly CHANGE node_modules/@unrs/resolver-binding-win32-ia32-msvc
+310 silly CHANGE node_modules/@unrs/resolver-binding-linux-x64-musl
+311 silly CHANGE node_modules/@unrs/resolver-binding-wasm32-wasi
+312 silly CHANGE node_modules/@unrs/resolver-binding-linux-x64-gnu
+313 silly CHANGE node_modules/@unrs/resolver-binding-linux-s390x-gnu
+314 silly CHANGE node_modules/@unrs/resolver-binding-linux-riscv64-musl
+315 silly CHANGE node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+316 silly CHANGE node_modules/@unrs/resolver-binding-linux-arm64-musl
+317 silly CHANGE node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+318 silly CHANGE node_modules/@unrs/resolver-binding-linux-arm64-gnu
+319 silly CHANGE node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+320 silly CHANGE node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+321 silly CHANGE node_modules/@unrs/resolver-binding-freebsd-x64
+322 silly CHANGE node_modules/@unrs/resolver-binding-darwin-arm64
+323 silly CHANGE node_modules/@unrs/resolver-binding-darwin-x64
+324 silly CHANGE node_modules/@unrs/resolver-binding-android-arm64
+325 silly CHANGE node_modules/@unrs/resolver-binding-android-arm-eabi
+326 silly CHANGE node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+327 silly CHANGE node_modules/@tailwindcss/oxide-win32-arm64-msvc
+328 silly CHANGE node_modules/@tailwindcss/oxide-wasm32-wasi
+329 silly CHANGE node_modules/@tailwindcss/oxide-linux-x64-musl
+330 silly CHANGE node_modules/@tailwindcss/oxide-linux-x64-gnu
+331 silly CHANGE node_modules/@tailwindcss/oxide-linux-arm64-musl
+332 silly CHANGE node_modules/@tailwindcss/oxide-linux-arm64-gnu
+333 silly CHANGE node_modules/@tailwindcss/oxide-freebsd-x64
+334 silly CHANGE node_modules/@tailwindcss/oxide-darwin-arm64
+335 silly CHANGE node_modules/@tailwindcss/oxide-darwin-x64
+336 silly CHANGE node_modules/@tailwindcss/oxide-android-arm64
+337 silly CHANGE node_modules/@next/swc-win32-arm64-msvc
+338 silly CHANGE node_modules/@next/swc-linux-x64-gnu
+339 silly CHANGE node_modules/@next/swc-linux-x64-musl
+340 silly CHANGE node_modules/@next/swc-linux-arm64-musl
+341 silly CHANGE node_modules/@next/swc-darwin-x64
+342 silly CHANGE node_modules/@next/swc-linux-arm64-gnu
+343 silly CHANGE node_modules/@next/swc-darwin-arm64
+344 silly CHANGE node_modules/@img/sharp-win32-ia32
+345 silly CHANGE node_modules/@img/sharp-win32-arm64
+346 silly CHANGE node_modules/@img/sharp-linuxmusl-arm64
+347 silly CHANGE node_modules/@img/sharp-wasm32
+348 silly CHANGE node_modules/@img/sharp-linuxmusl-x64
+349 silly CHANGE node_modules/@img/sharp-linux-s390x
+350 silly CHANGE node_modules/@img/sharp-linux-x64
+351 silly CHANGE node_modules/@img/sharp-linux-riscv64
+352 silly CHANGE node_modules/@img/sharp-linux-ppc64
+353 silly CHANGE node_modules/@img/sharp-linux-arm64
+354 silly CHANGE node_modules/@img/sharp-linux-arm
+355 silly CHANGE node_modules/@img/sharp-libvips-linuxmusl-x64
+356 silly CHANGE node_modules/@img/sharp-libvips-linuxmusl-arm64
+357 silly CHANGE node_modules/@img/sharp-libvips-linux-x64
+358 silly CHANGE node_modules/@img/sharp-libvips-linux-s390x
+359 silly CHANGE node_modules/@img/sharp-libvips-linux-riscv64
+360 silly CHANGE node_modules/@img/sharp-libvips-linux-ppc64
+361 silly CHANGE node_modules/@img/sharp-libvips-linux-arm
+362 silly CHANGE node_modules/@img/sharp-libvips-linux-arm64
+363 silly CHANGE node_modules/@img/sharp-libvips-darwin-x64
+364 silly CHANGE node_modules/@img/sharp-libvips-darwin-arm64
+365 silly CHANGE node_modules/@img/sharp-darwin-arm64
+366 silly CHANGE node_modules/@img/sharp-darwin-x64
+367 silly CHANGE node_modules/next
+368 silly CHANGE node_modules/lightningcss-win32-arm64-msvc
+369 silly CHANGE node_modules/lightningcss-linux-x64-musl
+370 silly CHANGE node_modules/lightningcss-linux-arm64-musl
+371 silly CHANGE node_modules/lightningcss-linux-arm-gnueabihf
+372 silly CHANGE node_modules/lightningcss-linux-x64-gnu
+373 silly CHANGE node_modules/lightningcss-linux-arm64-gnu
+374 silly CHANGE node_modules/lightningcss-freebsd-x64
+375 silly CHANGE node_modules/lightningcss-darwin-x64
+376 silly CHANGE node_modules/lightningcss-darwin-arm64
+377 silly CHANGE node_modules/lightningcss-android-arm64
+378 silly CHANGE node_modules/es-abstract
+379 verbose cwd C:\Users\Gurusankar\OneDrive\Desktop\Graze-Grain-main\frontend
+380 verbose os Windows_NT 10.0.26100
+381 verbose node v24.5.0
+382 verbose npm  v11.5.1
+383 verbose exit 0
+384 info ok

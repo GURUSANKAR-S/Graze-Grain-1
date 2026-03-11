@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f5efe6;
+  --foreground: #1f1a17;
+  --surface: #fffaf3;
+  --surface-strong: #fff6eb;
+  --brand: #8f4d24;
+  --brand-strong: #6f3515;
+  --muted: #6f6257;
+  --ring: #d9b08c;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), sans-serif;
+  background-image:
+    radial-gradient(circle at 20% -10%, #ffe1bf 0%, transparent 42%),
+    radial-gradient(circle at 85% 25%, #f4cfab 0%, transparent 35%),
+    linear-gradient(180deg, #fff8ee 0%, #f5efe6 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display), serif;
+  letter-spacing: -0.02em;
+}
+
+@layer components {
+  .grain-bg {
+    @apply relative;
+    isolation: isolate;
+  }
+
+  .grain-bg::before {
+    content: "";
+    @apply absolute inset-0 -z-10 pointer-events-none;
+    opacity: 0.18;
+    background-image: radial-gradient(#000 0.55px, transparent 0.55px);
+    background-size: 6px 6px;
+  }
+
+  .glass-surface {
+    @apply bg-white/80 border border-orange-200/60 shadow-xl;
+    backdrop-filter: blur(6px);
+  }
+}
+
+.reveal-up {
+  animation: reveal-up 620ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes drift {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(14px, -10px, 0) scale(1.05);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes float-y {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-soft {
+  0% {
+    box-shadow: 0 0 0 0 rgba(143, 77, 36, 0.35);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(143, 77, 36, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(143, 77, 36, 0);
+  }
+}
+
+.animate-drift {
+  animation: drift 8s ease-in-out infinite;
+}
+
+.animate-float-y {
+  animation: float-y 4.6s ease-in-out infinite;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2.8s infinite;
+}
+
+.delay-1 {
+  animation-delay: 130ms;
+}
+
+.delay-2 {
+  animation-delay: 260ms;
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
